@@ -1,7 +1,34 @@
-# Vue 3 + Vite
+# webappstore
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Небольшой Vue web app store проект с публичным деплоем.
 
-## Recommended IDE Setup
+## Демо
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[Открыть проект](https://webappstore.vercel.app)
+
+## Стек
+
+- Vue
+- JavaScript / TypeScript
+- HTML
+- CSS / SCSS
+
+## Что показывает проект
+
+- Практическую frontend-разработку
+- Работу со структурой проекта и компонентным подходом
+- Подготовку к локальному запуску и дальнейшему развитию
+
+## Запуск
+
+```bash
+npm install
+npm run dev
+```
+
+Если в проекте используется другой пакетный менеджер или скрипты отличаются, проверьте `package.json`.
+
+## Репозиторий
+
+- GitHub: [emilabsal/webappstore](https://github.com/emilabsal/webappstore)
+- Основная ветка: `main`
