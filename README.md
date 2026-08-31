@@ -1,34 +1,83 @@
-# webappstore
+# 🛒 WebAppStore
 
-Небольшой Vue web app store проект с публичным деплоем.
+Веб-приложение для демонстрации и управления каталогом товаров интернет-магазина.
 
-## Демо
+## 🚀 Технологический стек
 
-[Открыть проект](https://webappstore.vercel.app)
+| Технология | Назначение |
+|------------|------------|
+| **Vue 3** | Основной фреймворк |
+| **Vite** | Сборщик и dev-сервер |
+| **JavaScript (ES6+)** | Язык программирования |
+| **CSS** | Стилизация компонентов |
+| **HTML5** | Разметка страниц |
 
-## Стек
+## 📦 Установка и запуск
 
-- Vue
-- JavaScript / TypeScript
-- HTML
-- CSS / SCSS
+### Требования
+- Node.js ≥ 18
+- npm ≥ 9
 
-## Что показывает проект
-
-- Практическую frontend-разработку
-- Работу со структурой проекта и компонентным подходом
-- Подготовку к локальному запуску и дальнейшему развитию
-
-## Запуск
-
+### Установка зависимостей
 ```bash
 npm install
+```
+
+### Запуск в режиме разработки
+```bash
 npm run dev
 ```
 
-Если в проекте используется другой пакетный менеджер или скрипты отличаются, проверьте `package.json`.
+### Сборка для продакшена
+```bash
+npm run build
+```
 
-## Репозиторий
+### Предпросмотр продакшен-сборки
+```bash
+npm run preview
+```
 
-- GitHub: [emilabsal/webappstore](https://github.com/emilabsal/webappstore)
-- Основная ветка: `main`
+## 💻 Примеры использования
+
+### Запуск dev-сервера
+```bash
+npm run dev
+# Сервер запустится на http://localhost:5173
+```
+
+### Сборка проекта
+```bash
+npm run build
+# Результат появится в папке dist/
+```
+
+## 📁 Структура проекта
+
+```
+webappstore/
+├── 📄 index.html              # Главный HTML-файл
+├── 📄 package.json            # Конфигурация npm
+├── 📄 vite.config.js          # Конфигурация Vite
+├── 📁 public/                 # Статические файлы
+│   └── 📄 vite.svg
+├── 📁 src/                    # Исходный код
+│   ├── 📄 App.vue             # Корневой компонент
+│   ├── 📄 main.js             # Точка входа
+│   ├── 📄 style.css           # Глобальные стили
+│   ├── 📁 assets/             # Ресурсы
+│   │   └── 📄 vue.svg
+│   └── 📁 components/         # Vue-компоненты
+│       └── 📄 HelloWorld.vue
+└── 📁 dist/                   # Продакшен-сборка
+    ├── 📄 index.html
+    └── 📁 assets/             # Собранные ассеты
+```
+
+## 📄 Лицензия
+
+MIT License
+
+Copyright (c) 2024 WebAppStore
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
